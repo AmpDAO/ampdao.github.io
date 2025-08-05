@@ -1,637 +1,185 @@
+<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
 <!DOCTYPE html>
-<html  lang="en">
-	<head>
-		<meta charset="utf-8" >
-		<title>Affordable Credit for Real-Life Use Backed by Your Digital Assets</title>
-		<meta name="description" content="Introducing Amp, your gateway to revolutionary RealFi solutions on the Cardano blockchain. Access zero-interest, collateralized loans with just 50% collateral, offering affordable credit for real-life needs. Join the future of decentralized lending and financial empowerment with Amp today.">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" href="i/amp-logo-small.png">
-		<!-- AOS 3.0.0-beta.6 plugin CSS (Animations) -->
-		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-		<!-- Google Fonts -->
-		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;200;300;400;500;600;700;800;900&subset=latin&display=swap" rel="stylesheet">
-		<!-- Startup CSS + Bootstrap CSS (Styles for all blocks) - Remove ".min" if you want to edit a css code -->
-		<link href="css/styles.min.css" rel="stylesheet" />
-		<!-- jQuery 3.6.0 (uncomment line below if you need jQuery) -->
-		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
-		<!-- Website custom code in <head> -->
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MEV39P0422"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<html lang="en-US">
+    <!--<![endif]-->
 
-  gtag('config', 'G-MEV39P0422');
-</script>
-		<!-- custom code end -->
-		<!-- Open graph settings (social networks sharing settings) -->
-		<meta property="og:type" content="website">
-		<meta property="og:title" content="Affordable Credit for Real-Life Use Backed by Digital Assets">
-		<meta property="og:description" content="Discover Amp, the groundbreaking RealFi platform on Cardano. Access affordable, zero-interest loans with 50% collateral, revolutionizing credit for real-life needs. Join the decentralized lending revolution now!">
-		<meta property="og:url" content="https://ampfi.app">
-		<meta property="og:image" content="https://ampfi.app/i/io780untappedopportunity-1692748171.png">
-		<meta name='twitter:card' content='summary_large_image'>
-		<meta name="twitter:title" content="Affordable Credit for Real-Life Use Backed by Digital Assets">
-		<meta name="twitter:description" content="Discover Amp, the groundbreaking RealFi platform on Cardano. Access affordable, zero-interest loans with 50% collateral, revolutionizing credit for real-life needs. Join the decentralized lending revolution now!">
-		<meta property="twitter:domain" content="ampfi.app">
-		<meta property="twitter:url" content="https://ampfi.app">
-		<meta name="twitter:image" content="https://ampfi.app/i/io780untappedopportunity-1692748171.png">
-		<!-- Open graph settings end -->
-	</head> 
-	<body>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            AmpFi
+        </title><!-- Behavioral Meta Data -->
+        <meta content="yes" name="apple-mobile-web-app-capable">
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"><!-- Core Meta Data -->
+        <meta content="AmpFi" name="author">
+        <meta content="We are AmpFi." name="description">
+        <meta content="AmpFi, Automation" name="keywords"><!-- Open Graph Meta Data -->
+        <meta content="We are AmpFi.">
+        <meta content="AmpFi">
+        <meta content="AmpFi">
+        <meta content="website">
+        <meta content="index.html"><!-- Twitter Card Meta Data -->
+<!--         <meta content="summary" name="twitter:card">
+        <meta content="@themewagon" name="twitter:site">
+        <meta content="@themewagon" name="twitter:creator">
+        <meta content="ThemeWagon" name="twitter:title">
+        <meta content="Imminent - The most spectacular coming soon template!" name="twitter:description"> -->
 
-<!-- Navigation 7 -->
-	<nav class="sticky-top py-4 py-lg-7 bg-bg-1">
-		<div class="d-block d-lg-none">
-			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-3">
-						<a class="btn btn-width-equal-height d-lg-none rounded-circle custom-mobile-nav-btn" data-bs-toggle="offcanvas" data-bs-target="#custom-id-7l54tyz5">
-							<svg width="20" height="20" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-light-1">
-								<path d="M2.00016 5.33333H14.0002C14.177 5.33333 14.3465 5.2631 14.4716 5.13807C14.5966 5.01305 14.6668 4.84348 14.6668 4.66667C14.6668 4.48986 14.5966 4.32029 14.4716 4.19526C14.3465 4.07024 14.177 4 14.0002 4H2.00016C1.82335 4 1.65378 4.07024 1.52876 4.19526C1.40373 4.32029 1.3335 4.48986 1.3335 4.66667C1.3335 4.84348 1.40373 5.01305 1.52876 5.13807C1.65378 5.2631 1.82335 5.33333 2.00016 5.33333ZM14.0002 10.6667H2.00016C1.82335 10.6667 1.65378 10.7369 1.52876 10.8619C1.40373 10.987 1.3335 11.1565 1.3335 11.3333C1.3335 11.5101 1.40373 11.6797 1.52876 11.8047C1.65378 11.9298 1.82335 12 2.00016 12H14.0002C14.177 12 14.3465 11.9298 14.4716 11.8047C14.5966 11.6797 14.6668 11.5101 14.6668 11.3333C14.6668 11.1565 14.5966 10.987 14.4716 10.8619C14.3465 10.7369 14.177 10.6667 14.0002 10.6667ZM14.0002 7.33333H2.00016C1.82335 7.33333 1.65378 7.40357 1.52876 7.5286C1.40373 7.65362 1.3335 7.82319 1.3335 8C1.3335 8.17681 1.40373 8.34638 1.52876 8.4714C1.65378 8.59643 1.82335 8.66667 2.00016 8.66667H14.0002C14.177 8.66667 14.3465 8.59643 14.4716 8.4714C14.5966 8.34638 14.6668 8.17681 14.6668 8C14.6668 7.82319 14.5966 7.65362 14.4716 7.5286C14.3465 7.40357 14.177 7.33333 14.0002 7.33333Z">
-								</path>
-							</svg>
-						</a>
-					</div>
-					<div class="col-6 text-center">
-						<a href="#">
-							<img src="i/io780alogoforacompanycalledamp.png" srcset="i/io780alogoforacompanycalledamp.png 2x" alt="" class="img-fluid w-50">
-						</a>
-					</div>
-					<div class="col-3">
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="offcanvas offcanvas-start custom-dark-offcanvas-bg" id="custom-id-7l54tyz5" aria-hidden="true">
-			<div class="offcanvas-header">
-				<a href="#Header">
-					<img src="i/amp-logo-small.png" srcset="i/amp-logomd.png 2x" alt="" class="img-fluid w-25">
-				</a>
-				<a class="btn btn-sm btn-width-equal-height custom-mobile-nav-btn" data-bs-dismiss="offcanvas">
-					<svg width="24" height="24" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-light-2">
-						<path d="M8.9398 8L13.1398 3.80667C13.2653 3.68113 13.3359 3.51087 13.3359 3.33333C13.3359 3.1558 13.2653 2.98554 13.1398 2.86C13.0143 2.73447 12.844 2.66394 12.6665 2.66394C12.4889 2.66394 12.3187 2.73447 12.1931 2.86L7.9998 7.06L3.80646 2.86C3.68093 2.73447 3.51066 2.66394 3.33313 2.66394C3.1556 2.66394 2.98533 2.73447 2.8598 2.86C2.73426 2.98554 2.66374 3.1558 2.66374 3.33333C2.66374 3.51087 2.73426 3.68113 2.8598 3.80667L7.0598 8L2.8598 12.1933C2.79731 12.2553 2.74771 12.329 2.71387 12.4103C2.68002 12.4915 2.6626 12.5787 2.6626 12.6667C2.6626 12.7547 2.68002 12.8418 2.71387 12.9231C2.74771 13.0043 2.79731 13.078 2.8598 13.14C2.92177 13.2025 2.99551 13.2521 3.07675 13.2859C3.15798 13.3198 3.24512 13.3372 3.33313 13.3372C3.42114 13.3372 3.50827 13.3198 3.58951 13.2859C3.67075 13.2521 3.74449 13.2025 3.80646 13.14L7.9998 8.94L12.1931 13.14C12.2551 13.2025 12.3288 13.2521 12.4101 13.2859C12.4913 13.3198 12.5785 13.3372 12.6665 13.3372C12.7545 13.3372 12.8416 13.3198 12.9228 13.2859C13.0041 13.2521 13.0778 13.2025 13.1398 13.14C13.2023 13.078 13.2519 13.0043 13.2857 12.9231C13.3196 12.8418 13.337 12.7547 13.337 12.6667C13.337 12.5787 13.3196 12.4915 13.2857 12.4103C13.2519 12.329 13.2023 12.2553 13.1398 12.1933L8.9398 8Z">
-						</path>
-					</svg>
-				</a>
-			</div>
-			<div class="offcanvas-body">
-				<div>
-					<a href="#" class="fw-bold py-2 d-inline-block text-light-1">
-Home
-					</a>
-				</div>
-				<div>
-					<a href="#Tokenomics" class="fw-bold py-2 d-inline-block text-light-1">
-								Tokenomics
-					</a>
-				</div>
-				<div>
-					<a href="#Membership" class="fw-bold py-2 d-inline-block text-light-1">
-								NFT
-					</a>
-				</div>
-				<div>
-					<a href="lore.html" class="fw-bold py-2 d-inline-block text-light-1">
-								Lore
-					</a>
-				</div>
-				<div>
-					<a href="litepaper.html" class="fw-bold py-2 d-inline-block text-light-1">
-								Litepaper
-					</a>
-				</div>
-				<a href="https://twitter.com/AmpRealFi" class="text-action-1 me-6" target="_blank">
-					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-bg-3">
-						<path d="M22.4591 6C21.6891 6.35 20.8591 6.58 19.9991 6.69C20.8791 6.16 21.5591 5.32 21.8791 4.31C21.0491 4.81 20.1291 5.16 19.1591 5.36C18.3691 4.5 17.2591 4 15.9991 4C13.6491 4 11.7291 5.92 11.7291 8.29C11.7291 8.63 11.7691 8.96 11.8391 9.27C8.27906 9.09 5.10906 7.38 2.99906 4.79C2.62906 5.42 2.41906 6.16 2.41906 6.94C2.41906 8.43 3.16906 9.75 4.32906 10.5C3.61906 10.5 2.95906 10.3 2.37906 10V10.03C2.37906 12.11 3.85906 13.85 5.81906 14.24C5.18979 14.4122 4.52916 14.4362 3.88906 14.31C4.16067 15.1625 4.6926 15.9084 5.41008 16.4429C6.12756 16.9775 6.99451 17.2737 7.88906 17.29C6.37269 18.4904 4.49306 19.1393 2.55906 19.13C2.21906 19.13 1.87906 19.11 1.53906 19.07C3.43906 20.29 5.69906 21 8.11906 21C15.9991 21 20.3291 14.46 20.3291 8.79C20.3291 8.6 20.3291 8.42 20.3191 8.23C21.1591 7.63 21.8791 6.87 22.4591 6Z">
-						</path>
-					</svg>
-				</a>
-				<a href="https://discord.gg/uXgXK9gKvx" class="text-action-1 me-6" target="_blank">
-					<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512" class="fill-bg-3 fill-light-1">
-						<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-							<path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z">
-							</path>
-						</svg>
-					</a>
-					<a href="https://github.com/AmpDAO" class="text-action-1 me-6" target="_blank">
-						<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 496 512" class="fill-bg-3">
-							<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-								<path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
-								</path>
-							</svg>
-						</a>
-					</div>
-				</div>
-				<div class="d-none d-lg-block">
-					<div class="container">
-						<div class="row justify-content-between align-items-center">
-							<div class="col-2">
-								<a href="#Header">
-									<img src="i/amp-logo-small.png" srcset="i/amp-logomd.png 2x" alt="" class="img-fluid w-25">
-								</a>
-							</div>
-							<div class="col-8 text-center">
-								<a href="#Header" class="fw-bold mx-4 text-light-1">
-Home
-								</a>
-								<a href="#Tokenomics" class="fw-bold mx-4 text-light-1">
-									Tokenomics
-								</a>
-								<a href="#Membership" class="fw-bold mx-4 text-light-1">
-									NFT
-								</a>
-								<a href="lore.html" class="fw-bold mx-4 text-light-1">
-											Lore
-								</a>
-								<a href="litepaper.html" class="fw-bold mx-4 text-light-1">
-											Litepaper
-								</a>
-							</div>
-							<div class="col-2 text-end">
-								<a href="https://twitter.com/AmpRealFi" class="text-action-1" target="_blank">
-									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-bg-3">
-										<path d="M22.4591 6C21.6891 6.35 20.8591 6.58 19.9991 6.69C20.8791 6.16 21.5591 5.32 21.8791 4.31C21.0491 4.81 20.1291 5.16 19.1591 5.36C18.3691 4.5 17.2591 4 15.9991 4C13.6491 4 11.7291 5.92 11.7291 8.29C11.7291 8.63 11.7691 8.96 11.8391 9.27C8.27906 9.09 5.10906 7.38 2.99906 4.79C2.62906 5.42 2.41906 6.16 2.41906 6.94C2.41906 8.43 3.16906 9.75 4.32906 10.5C3.61906 10.5 2.95906 10.3 2.37906 10V10.03C2.37906 12.11 3.85906 13.85 5.81906 14.24C5.18979 14.4122 4.52916 14.4362 3.88906 14.31C4.16067 15.1625 4.6926 15.9084 5.41008 16.4429C6.12756 16.9775 6.99451 17.2737 7.88906 17.29C6.37269 18.4904 4.49306 19.1393 2.55906 19.13C2.21906 19.13 1.87906 19.11 1.53906 19.07C3.43906 20.29 5.69906 21 8.11906 21C15.9991 21 20.3291 14.46 20.3291 8.79C20.3291 8.6 20.3291 8.42 20.3191 8.23C21.1591 7.63 21.8791 6.87 22.4591 6Z">
-										</path>
-									</svg>
-								</a>
-								<a href="https://discord.gg/uXgXK9gKvx" class="text-action-1 ms-6" target="_blank">
-									<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512" class="fill-bg-3">
-										<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-											<path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z">
-											</path>
-										</svg>
-									</a>
-									<a href="https://github.com/AmpDAO" class="text-action-1 ms-6" target="_blank">
-										<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 496 512" class="fill-bg-3">
-											<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-												<path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
-												</path>
-											</svg>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</nav>
-					<!-- Header 5 -->
-						<header class="py-20 text-center bg-bg-1 bg-repeat-none bg-position-top-center bg-size-contain" data-bg-src-2x="i/io780solidblackbackground2f378a8e-dd73-4a61-81f8-8fd55d8dd295-1.png" data-bg-src="i/io780solidblackbackground2f378a8e-dd73-4a61-81f8-8fd55d8dd295-2.png" id="Header">
-							<div class="container">
-								<h2 class="display-3 text-light-1">
-									Affordable Credit for Real-Life Use Backed by Your Digital Assets
-								</h2>
-								<a href="https://discord.gg/uXgXK9gKvx" class="btn btn-action-1 mt-8 mb-15" target="_blank">
-Get Started		
-								</a>
-								<img src="i/io780acollageofmultiplenftimages-1692737793.png" alt="" class="mx-auto img-fluid d-md-none d-sm-none d-none d-lg-block" srcset="i/io780acollageofmultiplenftimages-1692738040.png 2x">	
-							</div>
-						</header>
-						<!-- Feature 9 -->
-							<section class="py-10 py-lg-20 text-center text-lg-start bg-bg-1">
-								<div class="container">
-									<div class="row align-items-center justify-content-center justify-content-lg-between">
-										<div class="col-lg-6 col-md-5">
-											<img src="i/io780blackbackground44d17942-070f-4a0e-8996-2db008a6f3ec-1.png" srcset="i/io780blackbackground44d17942-070f-4a0e-8996-2db008a6f3ec-2.png 2x" alt="" class="w-100 mb-6 mb-lg-0 img-fluid">			
-										</div>
-										<div class="col-xxl-5 col-lg-6 col-md-7">
-											<h2 class="display-5 mb-6 text-light-1">
-												Existing crypto credit products are unsuitable for real-life use cases
-											</h2>
-											<p class="fs-2 mb-0 text-light-2">
-													75% of digital asset holders who took our survey say accessing credit backed by digital assets for real-life needs is challenging due to volatile collaterals, short tenures, and high rates.
-											</p>
-										</div>
-									</div>
-								</div>
-							</section>
-							<!-- Feature 8 -->
-								<section class="py-10 py-lg-20 bg-bg-1">
-									<div class="container">
-										<div class="row align-items-md-center justify-content-between">
-											<div class="mb-8 mb-md-0 col-md-7 col-xxl-5 col-xl-6 col-lg-6">
-												<h2 class="display-5 mb-6 text-center text-md-start text-light-1">
-													Unlocking Financial Flexibility
-												</h2>
-												<p class="fs-2 text-center text-md-start mb-0 text-light-2" draggable="true">
-													Amp offers low interest rates, swift fund access, and the potential for long-term value preservation of your digital assets. These loans provide immediate liquidity, tax benefits, and investment diversification options while avoiding the need to sell your digital assets.
-												</p>
-											</div>
-											<div class="col-md-5 col-xl-6 col-lg-6">
-												<img src="i/io780untappedopportunity.png" srcset="i/io780untappedopportunity-1692748171.png 2x" alt="" class="img-fluid w-100">			
-											</div>
-										</div>
-									</div>
-								</section>
-								<!-- Call to action 1 -->
-									<section class="py-10 py-md-20 text-center bg-bg-1 bg-size-cover bg-repeat-none bg-position-bottom-right" data-bg-src-2x="i/io780solidblackbackground7cbdbc91-8fa9-48ee-ad71-6158355b7b67.png" data-bg-src="i/io780solidblackbackground7cbdbc91-8fa9-48ee-ad71-6158355b7b67.png">
-										<div class="container">
-											<div class="row flex-column align-items-center" draggable="true">
-												<div class="col-md-11 col-lg-9 col-xl-8 col-xxl-7">
-													<p class="mb-5 fs-1 text-light-2">
-												Join Us
-													</p>
-													<h2 class="display-5 mb-6 text-light-1">
-														Building on Cardano for security, speed and transparency.
-													</h2>
-												</div>
-												<div class="col-md-9 col-lg-7 col-xl-6 col-xxl-5">
-													<p class="fs-2 mb-8 text-light-2">
-											Amp ensures trust and inclusivity by leveraging blockchain technology, which maintains a transparent public ledger.
-													</p>
-													<a href="https://discord.gg/uXgXK9gKvx" class="btn btn-action-1 btn-sm" target="_blank">
-														Join Us
-													</a>
-												</div>
-											</div>
-										</div>
-									</section>
-									<!-- Feature 5 -->
-										<section class="py-10 py-lg-20 text-center bg-bg-1" id="Tokenomics">
-											<div class="container">
-												<div class="row justify-content-center">
-													<div class="col-lg-9 col-xl-8 col-xxl-6">
-														<h2 class="display-5 mb-6 text-light-1">
-													Tokenomics
-														</h2>
-														<p class="fs-2 mb-md-15 mb-8 text-light-2">
-													Meet $AMP, our governance token with amazing utility
-														</p>
-													</div>
-												</div>
-												<div class="row flex-column-reverse flex-sm-row justify-content-center align-items-center">
-													<div class="col-9 col-md-5 col-lg-4 col-xl-3 text-sm-start col-sm-9">
-														<div class="mb-12">
-															<h5 class="mb-4 text-light-1">
-														Total Supply: 13,500,000,000
-															</h5>
-															<h5 class="mb-4 text-light-1">
-														Ticker: AMP
-															</h5>
-															<p class="mb-0 text-light-2">
-															</p>
-														</div>
-														<div class="mb-12">
-															<h5 class="mb-4 text-light-1">
-														NFT Activation
-															</h5>
-															<p class="mb-0 text-light-2">
-														Seamlessly utilize tokens to activate NFTs, unlocking exclusive benefits and services within the Amp ecosystem.
-															</p>
-														</div>
-														<div class="mb-12">
-															<h5 class="mb-4 text-light-1">
-														Decentralized Governance
-															</h5>
-															<p class="mb-0 text-light-2">
-														Empower our community with DAO token-based voting, enabling active participation in shaping Amp's future direction.
-															</p>
-														</div>
-														<div class="mb-12">
-															<h5 class="mb-4 text-light-1">
-														Token Farming Rewards
-															</h5>
-															<p class="mb-0 text-light-2">
-														Engage in token farming to earn attractive rewards, fostering active involvement and liquidity provision.
-															</p>
-														</div>
-														<div class="mb-12">
-															<h5 class="mb-4 text-light-1">
-														NFT Tier Upgrade
-															</h5>
-															<p class="mb-0 text-light-2">
-														Elevate your experience with NFT tier leveling, enjoying enhanced privileges and tailored features as you advance within the Amp ecosystem.
-															</p>
-														</div>
-														<div>
-															<h5 class="mb-4 text-light-1">
-														Transaction Fees
-															</h5>
-															<p class="mb-0 text-light-2">
-														Utilize tokens to pay fees across the Amp platform, ensuring efficient and cost-effective transactions.
-															</p>
-														</div>
-													</div>
-													<div class="mb-sm-0 mb-15 text-md-end col-xxl-7 col-xl-7 col-lg-7 col-md-7 col-11 col-sm-11">
-														<img src="i/screenshot-2023-08-23-at-21-1692821777.png" srcset="i/screenshot-2023-08-23-at-21-1692821777.png 2x" alt="" class="img-fluid">
-													</div>
-												</div>
-											</div>
-										</section>
-										<!-- Pricing 1 -->
-											<section class="py-10 py-lg-20 bg-bg-1" id="Membership">
-												<div class="container">
-													<div class="row justify-content-center text-center">
-														<div class="col-lg-10 col-xl-8">
-															<h2 class="display-5 mb-6 text-light-1">
-														The NFT Collection
-															</h2>
-														</div>
-														<div class="col-md-9 col-lg-7 col-xl-6 col-xxl-5 mb-10">
-															<p class="fs-2 mb-0 text-light-2">
-																Holding the AMP NFT not only provide a line of credit to Holders but also generates passive income through staking and farming rewards.
-															</p>
-														</div>
-													</div>
-													<div id="custom-id-mi7gww13" class="carousel slide carousel-fade" data-bs-interval="false" data-bs-touch="false">
-														<div class="carousel-inner">
-															<div class="carousel-item bg-bg-1">
-																<div class="row justify-content-md-center">
-																	<div class="col-md-6 mb-8 mb-md-0 col-lg-5 col-xl-4">
-																		<div class="d-flex flex-column justify-content-between h-100 p-6 border rounded-2 bg-dark-2 border-dark-2">
-																			<div>
-																				<h2 class="mb-4 text-light-1">
-										Demo (Monthly)
-																				</h2>
-																				<p class="mb-6 text-light-2">
-										The website builder to help you grow 
-																					<span class="text-nowrap">
-											- free
-																					</span>
-											from bugs and errors.
-																				</p>
-																				<div class="position-relative mb-5">
-																					<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="position-absolute top-50 translate-middle-y fill-light-1">
-																						<path d="M16 8C16 10.1217 15.1571 12.1566 13.6569 13.6569C12.1566 15.1571 10.1217 16 8 16C5.87827 16 3.84344 15.1571 2.34315 13.6569C0.842855 12.1566 0 10.1217 0 8C0 5.87827 0.842855 3.84344 2.34315 2.34315C3.84344 0.842855 5.87827 0 8 0C10.1217 0 12.1566 0.842855 13.6569 2.34315C15.1571 3.84344 16 5.87827 16 8ZM12.03 4.97C11.9586 4.89882 11.8735 4.84277 11.7799 4.80522C11.6863 4.76766 11.5861 4.74936 11.4853 4.75141C11.3845 4.75347 11.2851 4.77583 11.1932 4.81717C11.1012 4.85851 11.0185 4.91797 10.95 4.992L7.477 9.417L5.384 7.323C5.24183 7.19052 5.05378 7.1184 4.85948 7.12183C4.66518 7.12525 4.47979 7.20397 4.34238 7.34138C4.20497 7.47879 4.12625 7.66418 4.12283 7.85848C4.1194 8.05278 4.19152 8.24083 4.324 8.383L6.97 11.03C7.04128 11.1012 7.12616 11.1572 7.21958 11.1949C7.313 11.2325 7.41305 11.2509 7.51375 11.2491C7.61444 11.2472 7.71374 11.2251 7.8057 11.184C7.89766 11.1429 7.9804 11.0837 8.049 11.01L12.041 6.02C12.1771 5.8785 12.2523 5.68928 12.2504 5.49296C12.2485 5.29664 12.1698 5.10888 12.031 4.97H12.03Z">
-																						</path>
-																					</svg>
-																					<h6 class="ps-7 text-light-1">
-											Many Components
-																					</h6>
-																				</div>
-																				<div class="position-relative mb-5">
-																					<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="position-absolute top-50 translate-middle-y fill-light-1">
-																						<path d="M16 8C16 10.1217 15.1571 12.1566 13.6569 13.6569C12.1566 15.1571 10.1217 16 8 16C5.87827 16 3.84344 15.1571 2.34315 13.6569C0.842855 12.1566 0 10.1217 0 8C0 5.87827 0.842855 3.84344 2.34315 2.34315C3.84344 0.842855 5.87827 0 8 0C10.1217 0 12.1566 0.842855 13.6569 2.34315C15.1571 3.84344 16 5.87827 16 8ZM12.03 4.97C11.9586 4.89882 11.8735 4.84277 11.7799 4.80522C11.6863 4.76766 11.5861 4.74936 11.4853 4.75141C11.3845 4.75347 11.2851 4.77583 11.1932 4.81717C11.1012 4.85851 11.0185 4.91797 10.95 4.992L7.477 9.417L5.384 7.323C5.24183 7.19052 5.05378 7.1184 4.85948 7.12183C4.66518 7.12525 4.47979 7.20397 4.34238 7.34138C4.20497 7.47879 4.12625 7.66418 4.12283 7.85848C4.1194 8.05278 4.19152 8.24083 4.324 8.383L6.97 11.03C7.04128 11.1012 7.12616 11.1572 7.21958 11.1949C7.313 11.2325 7.41305 11.2509 7.51375 11.2491C7.61444 11.2472 7.71374 11.2251 7.8057 11.184C7.89766 11.1429 7.9804 11.0837 8.049 11.01L12.041 6.02C12.1771 5.8785 12.2523 5.68928 12.2504 5.49296C12.2485 5.29664 12.1698 5.10888 12.031 4.97H12.03Z">
-																						</path>
-																					</svg>
-																					<h6 class="ps-7 text-light-1">
-											Based on Bootstrap
-																					</h6>
-																				</div>
-																				<div class="position-relative mb-5">
-																					<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="position-absolute top-50 translate-middle-y fill-light-1">
-																						<path d="M16 8C16 10.1217 15.1571 12.1566 13.6569 13.6569C12.1566 15.1571 10.1217 16 8 16C5.87827 16 3.84344 15.1571 2.34315 13.6569C0.842855 12.1566 0 10.1217 0 8C0 5.87827 0.842855 3.84344 2.34315 2.34315C3.84344 0.842855 5.87827 0 8 0C10.1217 0 12.1566 0.842855 13.6569 2.34315C15.1571 3.84344 16 5.87827 16 8ZM12.03 4.97C11.9586 4.89882 11.8735 4.84277 11.7799 4.80522C11.6863 4.76766 11.5861 4.74936 11.4853 4.75141C11.3845 4.75347 11.2851 4.77583 11.1932 4.81717C11.1012 4.85851 11.0185 4.91797 10.95 4.992L7.477 9.417L5.384 7.323C5.24183 7.19052 5.05378 7.1184 4.85948 7.12183C4.66518 7.12525 4.47979 7.20397 4.34238 7.34138C4.20497 7.47879 4.12625 7.66418 4.12283 7.85848C4.1194 8.05278 4.19152 8.24083 4.324 8.383L6.97 11.03C7.04128 11.1012 7.12616 11.1572 7.21958 11.1949C7.313 11.2325 7.41305 11.2509 7.51375 11.2491C7.61444 11.2472 7.71374 11.2251 7.8057 11.184C7.89766 11.1429 7.9804 11.0837 8.049 11.01L12.041 6.02C12.1771 5.8785 12.2523 5.68928 12.2504 5.49296C12.2485 5.29664 12.1698 5.10888 12.031 4.97H12.03Z">
-																						</path>
-																					</svg>
-																					<h6 class="ps-7 text-light-1">
-											HTML, CSS, LESS
-																					</h6>
-																				</div>
-																				<div class="position-relative mb-5">
-																					<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="position-absolute top-50 translate-middle-y fill-light-1">
-																						<path d="M16 8C16 10.1217 15.1571 12.1566 13.6569 13.6569C12.1566 15.1571 10.1217 16 8 16C5.87827 16 3.84344 15.1571 2.34315 13.6569C0.842855 12.1566 0 10.1217 0 8C0 5.87827 0.842855 3.84344 2.34315 2.34315C3.84344 0.842855 5.87827 0 8 0C10.1217 0 12.1566 0.842855 13.6569 2.34315C15.1571 3.84344 16 5.87827 16 8ZM12.03 4.97C11.9586 4.89882 11.8735 4.84277 11.7799 4.80522C11.6863 4.76766 11.5861 4.74936 11.4853 4.75141C11.3845 4.75347 11.2851 4.77583 11.1932 4.81717C11.1012 4.85851 11.0185 4.91797 10.95 4.992L7.477 9.417L5.384 7.323C5.24183 7.19052 5.05378 7.1184 4.85948 7.12183C4.66518 7.12525 4.47979 7.20397 4.34238 7.34138C4.20497 7.47879 4.12625 7.66418 4.12283 7.85848C4.1194 8.05278 4.19152 8.24083 4.324 8.383L6.97 11.03C7.04128 11.1012 7.12616 11.1572 7.21958 11.1949C7.313 11.2325 7.41305 11.2509 7.51375 11.2491C7.61444 11.2472 7.71374 11.2251 7.8057 11.184C7.89766 11.1429 7.9804 11.0837 8.049 11.01L12.041 6.02C12.1771 5.8785 12.2523 5.68928 12.2504 5.49296C12.2485 5.29664 12.1698 5.10888 12.031 4.97H12.03Z">
-																						</path>
-																					</svg>
-																					<h6 class="ps-7 text-light-1">
-											Block Model
-																					</h6>
-																				</div>
-																			</div>
-																			<a href="#" class="mt-6 btn w-100 btn-bg-3">
-									Download for Free
-																			</a>
-																		</div>
-																	</div>
-																	<div class="col-md-6 col-lg-5 col-xl-4">
-																		<div class="d-flex flex-column justify-content-between h-100 p-6 border rounded-2 bg-bg-1 border-light-3">
-																			<div>
-																				<h2 class="mb-4 text-light-1">
-										Pro (Monthly)
-																				</h2>
-																				<p class="mb-6 text-light-2">
-										Get your idea out there in the way you want it. Start with Startup.
-																				</p>
-																				<div class="position-relative mb-5">
-																					<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-action-1 position-absolute top-50 translate-middle-y">
-																						<path d="M16 8C16 10.1217 15.1571 12.1566 13.6569 13.6569C12.1566 15.1571 10.1217 16 8 16C5.87827 16 3.84344 15.1571 2.34315 13.6569C0.842855 12.1566 0 10.1217 0 8C0 5.87827 0.842855 3.84344 2.34315 2.34315C3.84344 0.842855 5.87827 0 8 0C10.1217 0 12.1566 0.842855 13.6569 2.34315C15.1571 3.84344 16 5.87827 16 8ZM12.03 4.97C11.9586 4.89882 11.8735 4.84277 11.7799 4.80522C11.6863 4.76766 11.5861 4.74936 11.4853 4.75141C11.3845 4.75347 11.2851 4.77583 11.1932 4.81717C11.1012 4.85851 11.0185 4.91797 10.95 4.992L7.477 9.417L5.384 7.323C5.24183 7.19052 5.05378 7.1184 4.85948 7.12183C4.66518 7.12525 4.47979 7.20397 4.34238 7.34138C4.20497 7.47879 4.12625 7.66418 4.12283 7.85848C4.1194 8.05278 4.19152 8.24083 4.324 8.383L6.97 11.03C7.04128 11.1012 7.12616 11.1572 7.21958 11.1949C7.313 11.2325 7.41305 11.2509 7.51375 11.2491C7.61444 11.2472 7.71374 11.2251 7.8057 11.184C7.89766 11.1429 7.9804 11.0837 8.049 11.01L12.041 6.02C12.1771 5.8785 12.2523 5.68928 12.2504 5.49296C12.2485 5.29664 12.1698 5.10888 12.031 4.97H12.03Z">
-																						</path>
-																					</svg>
-																					<h6 class="ps-7 text-light-1">
-											Many Components
-																					</h6>
-																				</div>
-																				<div class="position-relative mb-5">
-																					<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-action-1 position-absolute top-50 translate-middle-y">
-																						<path d="M16 8C16 10.1217 15.1571 12.1566 13.6569 13.6569C12.1566 15.1571 10.1217 16 8 16C5.87827 16 3.84344 15.1571 2.34315 13.6569C0.842855 12.1566 0 10.1217 0 8C0 5.87827 0.842855 3.84344 2.34315 2.34315C3.84344 0.842855 5.87827 0 8 0C10.1217 0 12.1566 0.842855 13.6569 2.34315C15.1571 3.84344 16 5.87827 16 8ZM12.03 4.97C11.9586 4.89882 11.8735 4.84277 11.7799 4.80522C11.6863 4.76766 11.5861 4.74936 11.4853 4.75141C11.3845 4.75347 11.2851 4.77583 11.1932 4.81717C11.1012 4.85851 11.0185 4.91797 10.95 4.992L7.477 9.417L5.384 7.323C5.24183 7.19052 5.05378 7.1184 4.85948 7.12183C4.66518 7.12525 4.47979 7.20397 4.34238 7.34138C4.20497 7.47879 4.12625 7.66418 4.12283 7.85848C4.1194 8.05278 4.19152 8.24083 4.324 8.383L6.97 11.03C7.04128 11.1012 7.12616 11.1572 7.21958 11.1949C7.313 11.2325 7.41305 11.2509 7.51375 11.2491C7.61444 11.2472 7.71374 11.2251 7.8057 11.184C7.89766 11.1429 7.9804 11.0837 8.049 11.01L12.041 6.02C12.1771 5.8785 12.2523 5.68928 12.2504 5.49296C12.2485 5.29664 12.1698 5.10888 12.031 4.97H12.03Z">
-																						</path>
-																					</svg>
-																					<h6 class="ps-7 text-light-1">
-											Based on Bootstrap
-																					</h6>
-																				</div>
-																				<div class="position-relative mb-5">
-																					<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-action-1 position-absolute top-50 translate-middle-y">
-																						<path d="M16 8C16 10.1217 15.1571 12.1566 13.6569 13.6569C12.1566 15.1571 10.1217 16 8 16C5.87827 16 3.84344 15.1571 2.34315 13.6569C0.842855 12.1566 0 10.1217 0 8C0 5.87827 0.842855 3.84344 2.34315 2.34315C3.84344 0.842855 5.87827 0 8 0C10.1217 0 12.1566 0.842855 13.6569 2.34315C15.1571 3.84344 16 5.87827 16 8ZM12.03 4.97C11.9586 4.89882 11.8735 4.84277 11.7799 4.80522C11.6863 4.76766 11.5861 4.74936 11.4853 4.75141C11.3845 4.75347 11.2851 4.77583 11.1932 4.81717C11.1012 4.85851 11.0185 4.91797 10.95 4.992L7.477 9.417L5.384 7.323C5.24183 7.19052 5.05378 7.1184 4.85948 7.12183C4.66518 7.12525 4.47979 7.20397 4.34238 7.34138C4.20497 7.47879 4.12625 7.66418 4.12283 7.85848C4.1194 8.05278 4.19152 8.24083 4.324 8.383L6.97 11.03C7.04128 11.1012 7.12616 11.1572 7.21958 11.1949C7.313 11.2325 7.41305 11.2509 7.51375 11.2491C7.61444 11.2472 7.71374 11.2251 7.8057 11.184C7.89766 11.1429 7.9804 11.0837 8.049 11.01L12.041 6.02C12.1771 5.8785 12.2523 5.68928 12.2504 5.49296C12.2485 5.29664 12.1698 5.10888 12.031 4.97H12.03Z">
-																						</path>
-																					</svg>
-																					<h6 class="ps-7 text-light-1">
-											HTML, CSS, LESS
-																					</h6>
-																				</div>
-																				<div class="position-relative mb-5">
-																					<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-action-1 position-absolute top-50 translate-middle-y">
-																						<path d="M16 8C16 10.1217 15.1571 12.1566 13.6569 13.6569C12.1566 15.1571 10.1217 16 8 16C5.87827 16 3.84344 15.1571 2.34315 13.6569C0.842855 12.1566 0 10.1217 0 8C0 5.87827 0.842855 3.84344 2.34315 2.34315C3.84344 0.842855 5.87827 0 8 0C10.1217 0 12.1566 0.842855 13.6569 2.34315C15.1571 3.84344 16 5.87827 16 8ZM12.03 4.97C11.9586 4.89882 11.8735 4.84277 11.7799 4.80522C11.6863 4.76766 11.5861 4.74936 11.4853 4.75141C11.3845 4.75347 11.2851 4.77583 11.1932 4.81717C11.1012 4.85851 11.0185 4.91797 10.95 4.992L7.477 9.417L5.384 7.323C5.24183 7.19052 5.05378 7.1184 4.85948 7.12183C4.66518 7.12525 4.47979 7.20397 4.34238 7.34138C4.20497 7.47879 4.12625 7.66418 4.12283 7.85848C4.1194 8.05278 4.19152 8.24083 4.324 8.383L6.97 11.03C7.04128 11.1012 7.12616 11.1572 7.21958 11.1949C7.313 11.2325 7.41305 11.2509 7.51375 11.2491C7.61444 11.2472 7.71374 11.2251 7.8057 11.184C7.89766 11.1429 7.9804 11.0837 8.049 11.01L12.041 6.02C12.1771 5.8785 12.2523 5.68928 12.2504 5.49296C12.2485 5.29664 12.1698 5.10888 12.031 4.97H12.03Z">
-																						</path>
-																					</svg>
-																					<h6 class="ps-7 text-light-1">
-											Block Model
-																					</h6>
-																				</div>
-																			</div>
-																			<a href="#" class="mt-6 btn w-100 btn-action-1">
-									Purchase for $149
-																			</a>
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<div class="carousel-item active bg-bg-1">
-																<div class="row justify-content-md-center">
-																	<div class="col-md-6 mb-8 mb-md-0 col-lg-5 col-xl-4">
-																		<div class="d-flex flex-column justify-content-between h-100 p-6 border rounded-2 bg-dark-2 border-dark-2">
-																			<div>
-																				<h2 class="mb-4 text-light-1">
-																			Membership NFT
-																				</h2>
-																				<p class="mb-6 text-light-2">
-																			9500 Total Supply
-																				</p>
-																				<div class="position-relative mb-5">
-																					<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="position-absolute top-50 translate-middle-y fill-light-1">
-																						<path d="M16 8C16 10.1217 15.1571 12.1566 13.6569 13.6569C12.1566 15.1571 10.1217 16 8 16C5.87827 16 3.84344 15.1571 2.34315 13.6569C0.842855 12.1566 0 10.1217 0 8C0 5.87827 0.842855 3.84344 2.34315 2.34315C3.84344 0.842855 5.87827 0 8 0C10.1217 0 12.1566 0.842855 13.6569 2.34315C15.1571 3.84344 16 5.87827 16 8ZM12.03 4.97C11.9586 4.89882 11.8735 4.84277 11.7799 4.80522C11.6863 4.76766 11.5861 4.74936 11.4853 4.75141C11.3845 4.75347 11.2851 4.77583 11.1932 4.81717C11.1012 4.85851 11.0185 4.91797 10.95 4.992L7.477 9.417L5.384 7.323C5.24183 7.19052 5.05378 7.1184 4.85948 7.12183C4.66518 7.12525 4.47979 7.20397 4.34238 7.34138C4.20497 7.47879 4.12625 7.66418 4.12283 7.85848C4.1194 8.05278 4.19152 8.24083 4.324 8.383L6.97 11.03C7.04128 11.1012 7.12616 11.1572 7.21958 11.1949C7.313 11.2325 7.41305 11.2509 7.51375 11.2491C7.61444 11.2472 7.71374 11.2251 7.8057 11.184C7.89766 11.1429 7.9804 11.0837 8.049 11.01L12.041 6.02C12.1771 5.8785 12.2523 5.68928 12.2504 5.49296C12.2485 5.29664 12.1698 5.10888 12.031 4.97H12.03Z">
-																						</path>
-																					</svg>
-																					<h6 class="ps-7 text-light-1">
-																				Line of credit
-																					</h6>
-																				</div>
-																				<div class="position-relative mb-5">
-																					<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="position-absolute top-50 translate-middle-y fill-light-1">
-																						<path d="M16 8C16 10.1217 15.1571 12.1566 13.6569 13.6569C12.1566 15.1571 10.1217 16 8 16C5.87827 16 3.84344 15.1571 2.34315 13.6569C0.842855 12.1566 0 10.1217 0 8C0 5.87827 0.842855 3.84344 2.34315 2.34315C3.84344 0.842855 5.87827 0 8 0C10.1217 0 12.1566 0.842855 13.6569 2.34315C15.1571 3.84344 16 5.87827 16 8ZM12.03 4.97C11.9586 4.89882 11.8735 4.84277 11.7799 4.80522C11.6863 4.76766 11.5861 4.74936 11.4853 4.75141C11.3845 4.75347 11.2851 4.77583 11.1932 4.81717C11.1012 4.85851 11.0185 4.91797 10.95 4.992L7.477 9.417L5.384 7.323C5.24183 7.19052 5.05378 7.1184 4.85948 7.12183C4.66518 7.12525 4.47979 7.20397 4.34238 7.34138C4.20497 7.47879 4.12625 7.66418 4.12283 7.85848C4.1194 8.05278 4.19152 8.24083 4.324 8.383L6.97 11.03C7.04128 11.1012 7.12616 11.1572 7.21958 11.1949C7.313 11.2325 7.41305 11.2509 7.51375 11.2491C7.61444 11.2472 7.71374 11.2251 7.8057 11.184C7.89766 11.1429 7.9804 11.0837 8.049 11.01L12.041 6.02C12.1771 5.8785 12.2523 5.68928 12.2504 5.49296C12.2485 5.29664 12.1698 5.10888 12.031 4.97H12.03Z">
-																						</path>
-																					</svg>
-																					<h6 class="ps-7 text-light-1">
-																						DAO decision-making
-																					</h6>
-																				</div>
-																				<div class="position-relative mb-5">
-																					<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="position-absolute top-50 translate-middle-y fill-light-1">
-																						<path d="M16 8C16 10.1217 15.1571 12.1566 13.6569 13.6569C12.1566 15.1571 10.1217 16 8 16C5.87827 16 3.84344 15.1571 2.34315 13.6569C0.842855 12.1566 0 10.1217 0 8C0 5.87827 0.842855 3.84344 2.34315 2.34315C3.84344 0.842855 5.87827 0 8 0C10.1217 0 12.1566 0.842855 13.6569 2.34315C15.1571 3.84344 16 5.87827 16 8ZM12.03 4.97C11.9586 4.89882 11.8735 4.84277 11.7799 4.80522C11.6863 4.76766 11.5861 4.74936 11.4853 4.75141C11.3845 4.75347 11.2851 4.77583 11.1932 4.81717C11.1012 4.85851 11.0185 4.91797 10.95 4.992L7.477 9.417L5.384 7.323C5.24183 7.19052 5.05378 7.1184 4.85948 7.12183C4.66518 7.12525 4.47979 7.20397 4.34238 7.34138C4.20497 7.47879 4.12625 7.66418 4.12283 7.85848C4.1194 8.05278 4.19152 8.24083 4.324 8.383L6.97 11.03C7.04128 11.1012 7.12616 11.1572 7.21958 11.1949C7.313 11.2325 7.41305 11.2509 7.51375 11.2491C7.61444 11.2472 7.71374 11.2251 7.8057 11.184C7.89766 11.1429 7.9804 11.0837 8.049 11.01L12.041 6.02C12.1771 5.8785 12.2523 5.68928 12.2504 5.49296C12.2485 5.29664 12.1698 5.10888 12.031 4.97H12.03Z">
-																						</path>
-																					</svg>
-																					<h6 class="ps-7 text-light-1">
-																						Staking bonuses
-																					</h6>
-																				</div>
-																				<div class="position-relative mb-5">
-																					<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="position-absolute top-50 translate-middle-y fill-light-1">
-																						<path d="M16 8C16 10.1217 15.1571 12.1566 13.6569 13.6569C12.1566 15.1571 10.1217 16 8 16C5.87827 16 3.84344 15.1571 2.34315 13.6569C0.842855 12.1566 0 10.1217 0 8C0 5.87827 0.842855 3.84344 2.34315 2.34315C3.84344 0.842855 5.87827 0 8 0C10.1217 0 12.1566 0.842855 13.6569 2.34315C15.1571 3.84344 16 5.87827 16 8ZM12.03 4.97C11.9586 4.89882 11.8735 4.84277 11.7799 4.80522C11.6863 4.76766 11.5861 4.74936 11.4853 4.75141C11.3845 4.75347 11.2851 4.77583 11.1932 4.81717C11.1012 4.85851 11.0185 4.91797 10.95 4.992L7.477 9.417L5.384 7.323C5.24183 7.19052 5.05378 7.1184 4.85948 7.12183C4.66518 7.12525 4.47979 7.20397 4.34238 7.34138C4.20497 7.47879 4.12625 7.66418 4.12283 7.85848C4.1194 8.05278 4.19152 8.24083 4.324 8.383L6.97 11.03C7.04128 11.1012 7.12616 11.1572 7.21958 11.1949C7.313 11.2325 7.41305 11.2509 7.51375 11.2491C7.61444 11.2472 7.71374 11.2251 7.8057 11.184C7.89766 11.1429 7.9804 11.0837 8.049 11.01L12.041 6.02C12.1771 5.8785 12.2523 5.68928 12.2504 5.49296C12.2485 5.29664 12.1698 5.10888 12.031 4.97H12.03Z">
-																						</path>
-																					</svg>
-																					<h6 class="ps-7 text-light-1">
-																						Collateralized borrowing
-																					</h6>
-																				</div>
-																				<div class="position-relative mb-5">
-																					<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="position-absolute top-50 translate-middle-y fill-light-1">
-																						<path d="M16 8C16 10.1217 15.1571 12.1566 13.6569 13.6569C12.1566 15.1571 10.1217 16 8 16C5.87827 16 3.84344 15.1571 2.34315 13.6569C0.842855 12.1566 0 10.1217 0 8C0 5.87827 0.842855 3.84344 2.34315 2.34315C3.84344 0.842855 5.87827 0 8 0C10.1217 0 12.1566 0.842855 13.6569 2.34315C15.1571 3.84344 16 5.87827 16 8ZM12.03 4.97C11.9586 4.89882 11.8735 4.84277 11.7799 4.80522C11.6863 4.76766 11.5861 4.74936 11.4853 4.75141C11.3845 4.75347 11.2851 4.77583 11.1932 4.81717C11.1012 4.85851 11.0185 4.91797 10.95 4.992L7.477 9.417L5.384 7.323C5.24183 7.19052 5.05378 7.1184 4.85948 7.12183C4.66518 7.12525 4.47979 7.20397 4.34238 7.34138C4.20497 7.47879 4.12625 7.66418 4.12283 7.85848C4.1194 8.05278 4.19152 8.24083 4.324 8.383L6.97 11.03C7.04128 11.1012 7.12616 11.1572 7.21958 11.1949C7.313 11.2325 7.41305 11.2509 7.51375 11.2491C7.61444 11.2472 7.71374 11.2251 7.8057 11.184C7.89766 11.1429 7.9804 11.0837 8.049 11.01L12.041 6.02C12.1771 5.8785 12.2523 5.68928 12.2504 5.49296C12.2485 5.29664 12.1698 5.10888 12.031 4.97H12.03Z">
-																						</path>
-																					</svg>
-																					<h6 class="ps-7 text-light-1">
-																						Enhanced stacking rewards
-																					</h6>
-																				</div>
-																				<div class="position-relative mb-5">
-																					<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="position-absolute top-50 translate-middle-y fill-light-1">
-																						<path d="M16 8C16 10.1217 15.1571 12.1566 13.6569 13.6569C12.1566 15.1571 10.1217 16 8 16C5.87827 16 3.84344 15.1571 2.34315 13.6569C0.842855 12.1566 0 10.1217 0 8C0 5.87827 0.842855 3.84344 2.34315 2.34315C3.84344 0.842855 5.87827 0 8 0C10.1217 0 12.1566 0.842855 13.6569 2.34315C15.1571 3.84344 16 5.87827 16 8ZM12.03 4.97C11.9586 4.89882 11.8735 4.84277 11.7799 4.80522C11.6863 4.76766 11.5861 4.74936 11.4853 4.75141C11.3845 4.75347 11.2851 4.77583 11.1932 4.81717C11.1012 4.85851 11.0185 4.91797 10.95 4.992L7.477 9.417L5.384 7.323C5.24183 7.19052 5.05378 7.1184 4.85948 7.12183C4.66518 7.12525 4.47979 7.20397 4.34238 7.34138C4.20497 7.47879 4.12625 7.66418 4.12283 7.85848C4.1194 8.05278 4.19152 8.24083 4.324 8.383L6.97 11.03C7.04128 11.1012 7.12616 11.1572 7.21958 11.1949C7.313 11.2325 7.41305 11.2509 7.51375 11.2491C7.61444 11.2472 7.71374 11.2251 7.8057 11.184C7.89766 11.1429 7.9804 11.0837 8.049 11.01L12.041 6.02C12.1771 5.8785 12.2523 5.68928 12.2504 5.49296C12.2485 5.29664 12.1698 5.10888 12.031 4.97H12.03Z">
-																						</path>
-																					</svg>
-																					<h6 class="ps-7 text-light-1">
-																						Multifaceted token rewards
-																					</h6>
-																				</div>
-																				<div class="position-relative mb-5">
-																					<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="position-absolute top-50 translate-middle-y fill-light-1">
-																						<path d="M16 8C16 10.1217 15.1571 12.1566 13.6569 13.6569C12.1566 15.1571 10.1217 16 8 16C5.87827 16 3.84344 15.1571 2.34315 13.6569C0.842855 12.1566 0 10.1217 0 8C0 5.87827 0.842855 3.84344 2.34315 2.34315C3.84344 0.842855 5.87827 0 8 0C10.1217 0 12.1566 0.842855 13.6569 2.34315C15.1571 3.84344 16 5.87827 16 8ZM12.03 4.97C11.9586 4.89882 11.8735 4.84277 11.7799 4.80522C11.6863 4.76766 11.5861 4.74936 11.4853 4.75141C11.3845 4.75347 11.2851 4.77583 11.1932 4.81717C11.1012 4.85851 11.0185 4.91797 10.95 4.992L7.477 9.417L5.384 7.323C5.24183 7.19052 5.05378 7.1184 4.85948 7.12183C4.66518 7.12525 4.47979 7.20397 4.34238 7.34138C4.20497 7.47879 4.12625 7.66418 4.12283 7.85848C4.1194 8.05278 4.19152 8.24083 4.324 8.383L6.97 11.03C7.04128 11.1012 7.12616 11.1572 7.21958 11.1949C7.313 11.2325 7.41305 11.2509 7.51375 11.2491C7.61444 11.2472 7.71374 11.2251 7.8057 11.184C7.89766 11.1429 7.9804 11.0837 8.049 11.01L12.041 6.02C12.1771 5.8785 12.2523 5.68928 12.2504 5.49296C12.2485 5.29664 12.1698 5.10888 12.031 4.97H12.03Z">
-																						</path>
-																					</svg>
-																					<h6 class="ps-7 text-light-1">
-																						Future product access
-																					</h6>
-																				</div>
-																			</div>
-																			<a href="https://discord.gg/uXgXK9gKvx" class="mt-6 btn w-100 btn-bg-3" target="_blank">
-																				Join the Waitlist
-																			</a>
-																		</div>
-																	</div>
-																	<div class="col-md-6 col-lg-5 col-xl-4">
-																		<div class="d-flex flex-column justify-content-between h-100 p-6 border rounded-2 bg-bg-1 border-light-3">
-																			<div>
-																				<h2 class="mb-4 text-light-1">
-																			Genesis NFT
-																				</h2>
-																				<p class="mb-6 text-light-2">
-																			500 Total Supply
-																				</p>
-																				<div class="position-relative mb-5">
-																					<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-action-1 position-absolute top-50 translate-middle-y">
-																						<path d="M16 8C16 10.1217 15.1571 12.1566 13.6569 13.6569C12.1566 15.1571 10.1217 16 8 16C5.87827 16 3.84344 15.1571 2.34315 13.6569C0.842855 12.1566 0 10.1217 0 8C0 5.87827 0.842855 3.84344 2.34315 2.34315C3.84344 0.842855 5.87827 0 8 0C10.1217 0 12.1566 0.842855 13.6569 2.34315C15.1571 3.84344 16 5.87827 16 8ZM12.03 4.97C11.9586 4.89882 11.8735 4.84277 11.7799 4.80522C11.6863 4.76766 11.5861 4.74936 11.4853 4.75141C11.3845 4.75347 11.2851 4.77583 11.1932 4.81717C11.1012 4.85851 11.0185 4.91797 10.95 4.992L7.477 9.417L5.384 7.323C5.24183 7.19052 5.05378 7.1184 4.85948 7.12183C4.66518 7.12525 4.47979 7.20397 4.34238 7.34138C4.20497 7.47879 4.12625 7.66418 4.12283 7.85848C4.1194 8.05278 4.19152 8.24083 4.324 8.383L6.97 11.03C7.04128 11.1012 7.12616 11.1572 7.21958 11.1949C7.313 11.2325 7.41305 11.2509 7.51375 11.2491C7.61444 11.2472 7.71374 11.2251 7.8057 11.184C7.89766 11.1429 7.9804 11.0837 8.049 11.01L12.041 6.02C12.1771 5.8785 12.2523 5.68928 12.2504 5.49296C12.2485 5.29664 12.1698 5.10888 12.031 4.97H12.03Z">
-																						</path>
-																					</svg>
-																					<h6 class="ps-7 text-light-1">
-																				All membership NFT benefits
-																					</h6>
-																				</div>
-																				<div class="position-relative mb-5">
-																					<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-action-1 position-absolute top-50 translate-middle-y">
-																						<path d="M16 8C16 10.1217 15.1571 12.1566 13.6569 13.6569C12.1566 15.1571 10.1217 16 8 16C5.87827 16 3.84344 15.1571 2.34315 13.6569C0.842855 12.1566 0 10.1217 0 8C0 5.87827 0.842855 3.84344 2.34315 2.34315C3.84344 0.842855 5.87827 0 8 0C10.1217 0 12.1566 0.842855 13.6569 2.34315C15.1571 3.84344 16 5.87827 16 8ZM12.03 4.97C11.9586 4.89882 11.8735 4.84277 11.7799 4.80522C11.6863 4.76766 11.5861 4.74936 11.4853 4.75141C11.3845 4.75347 11.2851 4.77583 11.1932 4.81717C11.1012 4.85851 11.0185 4.91797 10.95 4.992L7.477 9.417L5.384 7.323C5.24183 7.19052 5.05378 7.1184 4.85948 7.12183C4.66518 7.12525 4.47979 7.20397 4.34238 7.34138C4.20497 7.47879 4.12625 7.66418 4.12283 7.85848C4.1194 8.05278 4.19152 8.24083 4.324 8.383L6.97 11.03C7.04128 11.1012 7.12616 11.1572 7.21958 11.1949C7.313 11.2325 7.41305 11.2509 7.51375 11.2491C7.61444 11.2472 7.71374 11.2251 7.8057 11.184C7.89766 11.1429 7.9804 11.0837 8.049 11.01L12.041 6.02C12.1771 5.8785 12.2523 5.68928 12.2504 5.49296C12.2485 5.29664 12.1698 5.10888 12.031 4.97H12.03Z">
-																						</path>
-																					</svg>
-																					<h6 class="ps-7 text-light-1">
-																						Pre membership NFT token mint rewards
-																					</h6>
-																				</div>
-																			</div>
-																			<a href="https://discord.gg/uXgXK9gKvx" class="mt-6 btn w-100 btn-action-1" target="_blank">
-																				Join the Waitlist
-																			</a>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</section>
-											<!-- Footer 2 -->
-												<footer class="py-8 text-center bg-bg-1">
-													<div class="container">
-														<div class="row justify-content-between">
-															<div class="col-lg-2 col-md-3 mb-6 mb-md-0">
-																<a href="#Header">
-																	<img src="i/amp-logomd.png" srcset="i/amp-logo-small.png 2x" alt="" class="img-fluid w-25">
-																</a>
-															</div>
-															<div class="col mb-4 mb-md-0">
-																<a href="#Header" class="font-heading mx-4 text-light-1">
-Home
-																</a>
-																<a href="#Tokenomics" class="font-heading mx-4 text-light-1">
-															Tokenomics
-																</a>
-																<a href="#Membership" class="font-heading mx-4 text-light-1">
-															NFT
-																</a>
-																<a href="lore.html" class="font-heading mx-4 text-light-1" draggable="true">
-																			Lore
-																</a>
-																<a href="litepaper.html" class="font-heading mx-4 text-light-1">
-																			Litepaper
-																</a>
-															</div>
-															<div class="col-12 col-lg-2 col-md-3">
-																<a href="https://twitter.com/AmpRealFi" target="_blank">
-																	<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-light-1 mx-6">
-																		<path d="M22.4591 6C21.6891 6.35 20.8591 6.58 19.9991 6.69C20.8791 6.16 21.5591 5.32 21.8791 4.31C21.0491 4.81 20.1291 5.16 19.1591 5.36C18.3691 4.5 17.2591 4 15.9991 4C13.6491 4 11.7291 5.92 11.7291 8.29C11.7291 8.63 11.7691 8.96 11.8391 9.27C8.27906 9.09 5.10906 7.38 2.99906 4.79C2.62906 5.42 2.41906 6.16 2.41906 6.94C2.41906 8.43 3.16906 9.75 4.32906 10.5C3.61906 10.5 2.95906 10.3 2.37906 10V10.03C2.37906 12.11 3.85906 13.85 5.81906 14.24C5.18979 14.4122 4.52916 14.4362 3.88906 14.31C4.16067 15.1625 4.6926 15.9084 5.41008 16.4429C6.12756 16.9775 6.99451 17.2737 7.88906 17.29C6.37269 18.4904 4.49306 19.1393 2.55906 19.13C2.21906 19.13 1.87906 19.11 1.53906 19.07C3.43906 20.29 5.69906 21 8.11906 21C15.9991 21 20.3291 14.46 20.3291 8.79C20.3291 8.6 20.3291 8.42 20.3191 8.23C21.1591 7.63 21.8791 6.87 22.4591 6Z">
-																		</path>
-																	</svg>
-																</a>
-																<a href="https://discord.gg/uXgXK9gKvx" target="_blank">
-																	<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512" class="fill-bg-3">
-																		<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-																			<path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z">
-																			</path>
-																		</svg>
-																	</a>
-																	<a href="https://github.com/AmpDAO" target="_blank">
-																		<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 496 512" class="fill-light-1 mx-6">
-																			<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-																				<path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
-																				</path>
-																			</svg>
-																		</a>
-																	</div>
-																</div>
-																<div class="mt-6 mb-8 border-bottom border-light-3">
-																</div>
-																<p class="fs-5 text-action-7 my-4">
-																We will not and do not promote the NFT or tokens. They solely grant access to our service. The tokens and NFT are not investments and do not promise any profits. We do not endorse third-party marketing of the tokens or pay interest, as they are not debt instruments. The NFT and tokens do not confer ownership or participation in a company or common enterprise. Passive income means earning the community token, which are used for governance and voting. Earning more of the token increases a users influence on the outcome of decisions. The tokens are not money and they are not an investment.
-																</p>
-																<p class="fs-5 mb-0 text-light-2">
-													Copyright © 2023 AMP
-																</p>
-															</div>
-														</footer>
+        <link href="favicon.png" rel="shortcut icon" type="image/png">
 
-		<!-- Bootstrap JS -->
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        
+        <!-- CSS -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,900' rel='stylesheet' type='text/css'><!-- Styles -->
+        <link href="css/loader.css" rel="stylesheet" type="text/css">
+        <link href="css/normalize.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <!--[if lt IE 9]>
+            <link rel="stylesheet" type="text/css" href="css/ie.css" />
+        <![endif]-->
+        <!-- Javascript -->
 
-		<!-- AOS 3.0.0-beta.6 plugin JS (Animations) -->
-		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-		
-		<!-- Startup JS (Custom js for all blocks) - Remove ".min" if you want to edit a JS code -->
-		<script src="js/scripts.min.js"></script>
+        <script src="js/jquery.js"></script>
+    </head>
+    <body>
+        <div class="preloader">
+            <div class="loading">
+                <h2>
+                    Loading...
+                </h2>
+                <span class="progress"></span>
+            </div>
+        </div>
 
-	</body>
+        <div class="wrapper">
+            <ul class="scene unselectable" data-friction-x="0.1" data-friction-y="0.1" data-scalar-x="25" data-scalar-y="15" id="scene">
+                <li class="layer" data-depth="0.00">
+                </li>
+                <!-- BG -->
+
+                <li class="layer" data-depth="0.10">
+                    <div class="background">
+                    </div>
+                </li>
+
+                <!-- Hero -->
+
+                <li class="layer" data-depth="0.20">
+                    <div class="title">
+                        <h2>
+                            AMPFI
+                        </h2>
+                        <span class="line"></span>
+                    </div>
+                </li>
+
+                <li class="layer" data-depth="0.25">
+                    <div class="sphere">
+                        <img alt="sphere" src="images/sphere.png">
+                    </div>
+                </li>
+
+                <li class="layer" data-depth="0.30">
+                    <div class="hero">
+                        <h1 id="countdown">
+                            We are AmpFi
+                        </h1>
+
+                        <p class="sub-title">
+                            Think Automation and AI.
+                        </p>
+                    </div>
+                </li>
+                <!-- Flakes -->
+
+                <li class="layer" data-depth="0.40">
+                    <div class="depth-1 flake1">
+                        <img alt="flake" src="images/flakes/depth1/flakes1.png">
+                    </div>
+
+                    <div class="depth-1 flake2">
+                        <img alt="flake" src="images/flakes/depth1/flakes2.png">
+                    </div>
+
+                    <div class="depth-1 flake3">
+                        <img alt="flake" src="images/flakes/depth1/flakes3.png">
+                    </div>
+
+                    <div class="depth-1 flake4">
+                        <img alt="flake" src="images/flakes/depth1/flakes4.png">
+                    </div>
+                </li>
+
+                <li class="layer" data-depth="0.50">
+                    <div class="depth-2 flake1">
+                        <img alt="flake" src="images/flakes/depth2/flakes1.png">
+                    </div>
+
+                    <div class="depth-2 flake2">
+                        <img alt="flake" src="images/flakes/depth2/flakes2.png">
+                    </div>
+                </li>
+
+                <li class="layer" data-depth="0.60">
+                    <div class="depth-3 flake1">
+                        <img alt="flake" src="images/flakes/depth3/flakes1.png">
+                    </div>
+
+                    <div class="depth-3 flake2">
+                        <img alt="flake" src="images/flakes/depth3/flakes2.png">
+                    </div>
+
+                    <div class="depth-3 flake3">
+                        <img alt="flake" src="images/flakes/depth3/flakes3.png">
+                    </div>
+
+                    <div class="depth-3 flake4">
+                        <img alt="flake" src="images/flakes/depth3/flakes4.png">
+                    </div>
+                </li>
+
+                <li class="layer" data-depth="0.80">
+                    <div class="depth-4">
+                        <img alt="flake" src="images/flakes/depth4/flakes.png">
+                    </div>
+                </li>
+
+                <li class="layer" data-depth="1.00">
+                    <div class="depth-5">
+                        <img alt="flake" src="images/flakes/depth5/flakes.png">
+                    </div>
+                </li>
+                <!-- Contact -->
+
+                <!-- <li class="layer" data-depth="0.20">
+                    <div class="contact">
+                        <ul class="icons">
+                            <li>
+                                <a class="behance" href="#"><i class="fa fa-behance"></i></a>
+                            </li>
+
+                            <li>
+                                <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+
+                            <li>
+                                <a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+                        Theme by <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
+                        <a class="mail" href="mailto:info@example.com?subject=Hi%20ThemeWagon!">info@example.com</a>
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+
+        <!-- Javascript -->
+        <script src="js/plugins.js"></script> 
+        <script src="js/jquery.countdown.min.js"></script> 
+        <script src="js/main.js"></script>
+
+    </body>
 </html>
